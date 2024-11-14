@@ -1,0 +1,11 @@
+graph_params:
+  x_limits:
+    low: 0
+    high: 1
+  y_limits:
+    low: 0
+    high: 1
+  x_point: 0.5
+  y_point: 0.5
+simulation:
+  run_sim: false
