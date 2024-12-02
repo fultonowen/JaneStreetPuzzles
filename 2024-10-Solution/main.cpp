@@ -38,7 +38,7 @@ std::pair<int, int> cell_number_to_row_col(int val) {
 }
 
 // valid state transition still on board
-constexpr bool is_valid_transition(int x, int y) {
+bool is_valid_transition(int x, int y) {
     return x >= 0 && x < 6 && y >= 0 && y < 6;
 }
 
